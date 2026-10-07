@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Bar De Regenboog",
+    "subtitle": "Bar · Stratumseind · LGBTQ+ friendly",
+    "photo": "media/bar-de-regenboog.webp",
+    "friends": ["Lotte", "Sam", "Noa", "Ravi"],
+    "tags": [
+      { "label": "Friendly door", "count": 4 },
+      { "label": "Inclusive space", "count": 3 }
+    ],
+    "quote": "Felt comfortable from the moment we walked in with our group"
+  },
+
+  {
+    "name": "De Borrelbar",
+    "subtitle": "Club · Stratumseind · Casual bar",
+    "photo": "media/de-borrelbar.webp",
+    "friends": ["Noa", "Ravi"],
+    "tags": [
+      { "label": "Respectful crowd", "count": 2 },
+      { "label": "Good music", "count": 1 }
+    ],
+    "quote": "Easy to go with a mixed group, nice vibe."
+  },
+
+  {
+    "name": "Thomas Eindhoven",
+    "subtitle": "Bar and club · Stratumseind · Casual bar",
+    "photo": "media/thomas_eindhoven.webp",
+    "friends": ["Lotte"],
+    "tags": [
+      { "label": "Respectful crowd", "count": 1 },
+      { "label": "Friendly door", "count": 1 }
+    ]
+  }
+]
