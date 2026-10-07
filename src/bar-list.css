@@ -1,0 +1,99 @@
+.bar-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: var(--radius-card);
+    border: 1px solid var(--color-border);
+    background: var(--color-surface);
+    overflow: hidden;
+}
+
+.bar-card-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: var(--photo-ratio);
+  object-fit: cover;
+}
+
+.bar-card-body {
+    display: flex;
+    padding: var(--space-16);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-12);
+    align-self: stretch;
+}
+
+.bar-card-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-2);
+    align-self: stretch;
+}
+
+.friends-box {
+    display: flex;
+    padding: var(--space-12);
+    align-items: center;
+    gap: var(--space-8);
+    align-self: stretch;
+    border-radius: var(--radius-box);
+    border: 1px solid var(--color-border);
+    background: var(--color-bg);
+}
+
+.avatar-stack {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-stack > * + * {
+  margin-left: var(--avatar-overlap);
+}
+
+.avatar {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--radius-pill);
+    border: 2px solid var(--color-surface);
+}
+
+.avatar--1 {
+    background: var(--color-avatar-1);
+}
+
+.avatar--2 {
+    background: var(--color-avatar-2);
+}
+
+.avatar--3 {
+    background: var(--color-avatar-3);
+}
+
+.avatar--4 {
+    background: var(--color-avatar-4);
+}
+
+.chip-list {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: var(--space-8);
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.chip {
+    display: flex;
+    padding: var(--space-6) var(--space-12);
+    align-items: center;
+    gap: var(--space-4);
+    border-radius: var(--radius-pill);
+    border: 1px solid var(--color-border);
+    background: var(--color-bg);
+}
