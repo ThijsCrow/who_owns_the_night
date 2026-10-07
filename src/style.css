@@ -80,6 +80,10 @@ button, input, textarea, select {
   font: inherit;
 }
 
+ul {
+  list-style: none;
+}
+
 body {
   background: var(--color-bg);
   color: var(--color-text);
