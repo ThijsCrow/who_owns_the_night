@@ -13,7 +13,21 @@
     <link rel="stylesheet" href="src/bar-list.css">
 </head>
 <body>
-    <main>
+    <main class="container">
+        <header class="page-header">
+            <h1 class="text-title">Bars Eindhoven</h1>
+            <p class="text-small">Stratumseind and around</p>
+        </header>
+
+        <div class="list-controls">
+            <p class="text-small">3 bars</p>
+            <select class="sort text-body-strong" aria-label="Sort bars">
+                <option>Popular by friends</option>
+                <option>Nearest</option>
+                <option>Newest</option>
+            </select>
+        </div>
+        
         <ul class="bar-list"></ul>
     </main>
 
