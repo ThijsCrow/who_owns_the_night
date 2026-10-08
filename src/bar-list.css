@@ -1,3 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--space-16);
+}
+
+.page-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--space-16) 0;
+    gap: var(--space-2);
+}
+
+
+
+.list-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: var(--space-16);
+    align-self: stretch;
+}
+ 
+.sort {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+
+.bar-list {
+    display: grid;
+    gap: var(--space-16);
+    margin-top: var(--space-16);
+    list-style: none;
+}
+
 .bar-card {
     display: flex;
     flex-direction: column;
